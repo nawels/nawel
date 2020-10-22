@@ -1,0 +1,43 @@
+body{   
+    text-align: center;
+}
+#menu ul {  
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+#menu #item {   
+    float: left;
+}
+#menu #item a{  
+    background-color: black;
+    color: blanchedalmond;
+    padding: 12px 22px;
+    display: block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+#menu #desple { 
+    display: none;
+    position: absolute;
+    min-width: 200px;
+}
+
+#menu #item a:hover {   
+    background: blue;
+}
+
+
+#menu #item a:hover {   
+    background: blue;
+    color: cornflowerblue;
+}
+
+#menu #item:hover #desple { 
+    display:block ;
+}-
+
+#menu{  
+    text-align: center;
+}

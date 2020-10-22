@@ -1,0 +1,46 @@
+body{   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+.imagen1{    
+    width: 400px;
+    position: absolute;
+  
+}
+
+.container{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: stretch;
+    margin: 50px;
+}
+.container img {    
+    margin: auto;
+}
+#menu { 
+    width: 200px;
+    height: 100px;
+    position: fixed;
+}
+
+#menu ul a {    
+    text-decoration: none;
+    color: white;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 30px;
+display: block;
+
+margin-bottom: 10px;
+padding: 10px 20px 20px 10px;
+border-radius: 15px;
+transition: background .4s, margin-left 4s, margin-right 4s
+}
+#menu ul a:hover{   
+    margin-right: -20px;
+    margin-left: 20px;
+    
+}
